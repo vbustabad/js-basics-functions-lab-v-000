@@ -2,7 +2,7 @@
 
 function distanceFromHqInBlocks(street) {
   let Hq = 42;
-  result = street - Hq
+  result = street - Hq;
   return result
 }
 
