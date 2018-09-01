@@ -29,7 +29,20 @@ function distanceTravelledInFeet(street_1, street_2) {
 }
 
 function calculatesFarePrice(start, destination) {
+  const feet = distanceTravelledInFeet(start, destination)
+  
   let result
-  result = (distanceTravelledInBlocks(street_1, street_2) * 264);
+    if feet < 400 {
+      result = 0;
+    }
+    else if (feet > 400 && feet < 2000) {
+      result = 2.56;
+    }
+    else if (feet > 2000 && feet < 2500) {
+      result = 25;
+    }
+    else {
+      result = "cannot travel that far";
+    }
   return result
 }
