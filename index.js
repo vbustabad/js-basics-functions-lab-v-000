@@ -1,7 +1,9 @@
 // Code your solution in this file!
 
-function distanceFromHqInBlocks(location) {
-  //returns the number of blocks given a value
+function distanceFromHqInBlocks(street) {
+  let Hq = 42;
+  result = street - Hq
+  return result
 }
 
 function distanceFromHqInFeet (someValue) {
