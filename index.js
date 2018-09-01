@@ -8,10 +8,11 @@ function distanceFromHqInBlocks(street) {
   return result
 }
 
-function distanceFromHqInFeet (street) {
+function distanceFromHqInFeet(street) {
   const Hq = 42;
 
-  let result 
+  let result
   result = (distanceFromHqInBlocks(street) * 264)
   return result
 }
+
