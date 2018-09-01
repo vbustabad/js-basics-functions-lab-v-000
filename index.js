@@ -1,7 +1,7 @@
 // Code your solution in this file!
 
 function distanceFromHqInBlocks(street) {
-  let Hq = 42;
+  const Hq = 42;
     if Hq > street {
       result = (Hq - street);
     }
