@@ -12,7 +12,7 @@ function distanceFromHqInFeet(street) {
   const Hq = 42;
 
   let result
-  result = (distanceFromHqInBlocks(street) * 264)
+  result = (distanceFromHqInBlocks(street) * 264);
   return result
 }
 
@@ -24,6 +24,12 @@ function distanceTravelledInBlocks(street_1, street_2) {
 
 function distanceTravelledInFeet(street_1, street_2) {
   let result
-  result = (distanceTravelledInBlocks(street_1, street_2) * 264)    
+  result = (distanceTravelledInBlocks(street_1, street_2) * 264);
+  return result
+}
+
+function calculatesFarePrice(start, destination) {
+  let result
+  result = (distanceTravelledInBlocks(street_1, street_2) * 264);
   return result
 }
