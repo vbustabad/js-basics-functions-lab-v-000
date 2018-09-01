@@ -16,3 +16,14 @@ function distanceFromHqInFeet(street) {
   return result
 }
 
+function distanceTravelledInBlocks(street_1, street_2) {
+  let result
+  result = (street_1 > street_2 ? (street_1 - street_2) : (street_2 - street_1));
+  return result
+}
+
+function distanceTravelledInFeet(street_1, street_2) {
+  let result
+  result = (distanceTravelledInBlocks(street_1, street_2) * 264)    
+  return result
+}
