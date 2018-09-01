@@ -3,7 +3,9 @@
 function distanceFromHqInBlocks(street) {
   const Hq = 42;
 
-  Hq > street ? (Hq - street) : (street - Hq);
+  let result 
+  result = (Hq > street ? (Hq - street) : (street - Hq));
+  return result
 }
 
 function distanceFromHqInFeet (someValue) {
